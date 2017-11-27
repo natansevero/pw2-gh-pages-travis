@@ -3,6 +3,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   local_dir: ./docs
-  github_token: 1681cd804661bd7421b01fc1fe4ebb68d094dded
+  github_token: $GITHUB_TOKEN
   on:
     branch: master 
