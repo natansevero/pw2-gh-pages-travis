@@ -1,0 +1,8 @@
+language: java
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: ./docs
+  github_token: 1681cd804661bd7421b01fc1fe4ebb68d094dded
+  on:
+    branch: master
